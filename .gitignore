@@ -1,3 +1,5 @@
-toolbox/scripts/dist
-toolbox/scripts/build
+dist
+build
 .idea
+
+blueprint_cache.txt
