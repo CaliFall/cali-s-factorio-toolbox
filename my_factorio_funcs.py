@@ -186,9 +186,9 @@ def get_frame_rgb_list(frame: ImageFile, width: int = 10, height: int = 10) -> l
 	
 	_ = []
 	
-	for x in range(width):
-		for y in range(height):
-			rgb = pix[y, x]
+	for y in range(height):
+		for x in range(width):
+			rgb = pix[x, y]
 			if not len(rgb) == 3:
 				rgb = rgb[:-1]
 			_.append(rgb)

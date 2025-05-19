@@ -35,7 +35,7 @@ class DialogTextEdit(QDialog):
 
 class MainWindow(QMainWindow):
 	def __init__(self):
-		__version__ = '0.0.2'
+		__version__ = '0.0.3'
 		
 		super(MainWindow, self).__init__()
 		
